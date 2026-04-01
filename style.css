@@ -1,51 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
-*{
-    padding:0;
-    margin:0;
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --primary-color: ;
     --text_color: ;
 }
-html{
+
+html {
     font-size: 10px;
 }
-body{
+
+body {
     font-family: Inter;
     background-color: #ffffff;
     color: #0f0f0f;
 }
-/*common*/
-.title{
+
+.title {
     color: turquoise;
     font-weight: 700;
     font-size: 2rem;
     text-transform: uppercase;
 }
-.itempretitle{
-    font-size: 1.4rem;
-    font-weight: 300;
+
+.itempretitle {
+    font-size: 1.55rem;
+    font-weight: 375;
 }
-.itemtitle{
+
+.itemtitle {
     font-size: 1.6rem;
     font-weight: 500;
     margin: 0.8rem 0;
 }
-img{
+
+img {
     width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
     color: blue;
 }
-.description{
+
+.description {
     margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.6rem;
+    font-weight: 500;
     color: var(--text_color);
 }
-.container{
+
+.container {
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
@@ -55,23 +65,27 @@ a{
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
-@media only screen and (max_width: 768px){
-    .container{
+
+@media only screen and (max_width: 768px) {
+    .container {
         width: 100%;
         grid-template-columns: 1fr;
         padding: 3rem;
-        gap:7rem;
+        gap: 7rem;
     }
 }
-.profile{
+
+.profile {
     grid-column: 1 / -1;
     margin-bottom: 2rem;
 }
-.profile_container{
+
+.profile_container {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
 }
-.profile_profileimage{
+
+.profile_profileimage {
     max-width: 250px;
     align-items: center;
     text-align: center;
@@ -82,20 +96,23 @@ a{
     background-color: #f0f0f0;
     gap: 4rem;
 }
-.profile_name{
+
+.profile_name {
     color: turquoise;
     font-weight: 700;
-    font-size: clamp(2.5rem,15vw,7rem);
+    font-size: clamp(2.5rem, 15vw, 7rem);
     text-transform: uppercase;
     display: block;
     margin-bottom: -0.8rem;
 }
-.profile_title{
+
+.profile_title {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
 }
-.downloadbtn{
+
+.downloadbtn {
     display: bloack;
     text-decoration: underline;
     text-align: center;
@@ -108,39 +125,47 @@ a{
     font-size: 1.6rem;
     margin-top: 1rem;
 }
+
 .downloadbtn:hover {
     color: white;
 }
-@media only screen and (max-width: 768px){
-    .profile_container{
+
+@media only screen and (max-width: 768px) {
+    .profile_container {
         flex-direction: column;
     }
 }
-/* tech*/
-.skill_list{
+
+.skill_list {
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
 }
-.edu_item{
+
+.edu_item {
     margin-top: 2rem;
 }
-.grp1, .grp2{
+
+.grp1,
+.grp2 {
     display: flex;
     flex-direction: column;
     gap: 5rem;
 }
-.expitem{
+
+.expitem {
     margin-top: 2rem;
 }
-.interestitems{
+
+.interestitems {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
-.interestitem{
+
+.interestitem {
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -148,7 +173,8 @@ a{
     justify-content: center;
     gap: 0.5rem;
 }
-.grp3{
+
+.grp3 {
     text-align: center;
     max-width: 1000px;
     width: 90%;
@@ -158,6 +184,7 @@ a{
     background-color: #f0f0f0;
     gap: 4rem;
 }
-.info{
+
+.info {
     font-size: 1.5rem;
 }
